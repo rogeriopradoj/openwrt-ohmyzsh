@@ -18,7 +18,7 @@ else
 fi
 
 # replace upgrade.sh
-curl https://raw.githubusercontent.com/felix-fly/openwrt-ohmyzsh/master/upgrade.sh -O "${ZSH}/tools/upgrade.sh"
+curl https://raw.githubusercontent.com/rogeriopradoj/openwrt-ohmyzsh/fork/upgrade.sh -O "${ZSH}/tools/upgrade.sh"
 # patch to check_for_upgrade.sh
 sed -i '/^whence git.*/d' "${ZSH}/tools/check_for_upgrade.sh"
 # fix for remove lock file

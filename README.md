@@ -1,6 +1,7 @@
 # oh-my-zsh on openwrt
 
-[查看中文说明](./zh-cn.md)
+> - https://github.com/rogeriopradoj/openwrt-ohmyzsh/tree/fork
+> - forked from https://github.com/felix-fly/openwrt-ohmyzsh
 
 Install oh-my-zsh on a openwrt router without git and git-http installed. It's base on the official scripts.
 
@@ -18,7 +19,7 @@ opkg install zsh
 ## Install
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/felix-fly/openwrt-ohmyzsh/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/rogeriopradoj/openwrt-ohmyzsh/fork/install.sh)"
 ```
 
 ## Set zsh default
@@ -32,7 +33,7 @@ Relogin your router, you'll see oh-my-zsh here.
 ## Uninstall
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/felix-fly/openwrt-ohmyzsh/master/uninstall.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/rogeriopradoj/openwrt-ohmyzsh/fork/uninstall.sh)"
 ```
 
 ## Issues
